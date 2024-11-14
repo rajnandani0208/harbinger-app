@@ -1,19 +1,20 @@
 // screens/PollDetailScreen.tsx
+import { CommonActions, RouteProp, useNavigation, useRoute } from '@react-navigation/native';
 import React, { useState } from 'react';
-import { View, Text, FlatList, StyleSheet, Button, Alert } from 'react-native';
+import { Alert, FlatList, Text, View } from 'react-native';
 import { useDispatch } from 'react-redux';
-import { useNavigation, RouteProp, useRoute, CommonActions } from '@react-navigation/native';
-import { submitVote } from '../store/pollSlice';
-import PollQuestion from '../components/PollQuestion';
-import pollData from '../data/polls.json';
-import CustomButton from '../components/CustomButton';
+import CustomButton from '../../components/CustomButton';
+import PollQuestion from '../../components/PollQuestion';
+import pollData from '../../data/polls.json';
+import { submitVote } from '../../store/pollSlice';
+import styles from './PollDetailScreenStyle';
 
 type PollDetailRouteProp = RouteProp<{ params: { pollId: number } }, 'params'>;
 
 const PollDetailScreen: React.FC = () => {
     const route = useRoute<PollDetailRouteProp>();
     const pollId = route.params.pollId;
-    const poll = pollData.find((p) => p.id === pollId);
+    const poll: any = pollData.find((p) => p.id === pollId);
     const dispatch = useDispatch();
     const navigation = useNavigation();
 
@@ -38,7 +39,7 @@ const PollDetailScreen: React.FC = () => {
         // Check if the last selected answer is "No" (assuming "No" has an ID of 2)
         const lastSelectedAnswer = Object.values(responses).slice(-1)[0];
         if (unansweredQuestions.length > 0 && lastSelectedAnswer !== 2) {
-            Alert.alert("Error", "Please answer all questions before submitting.");
+            Alert.alert("Alert", "Please select options.");
             return;
         }
 
@@ -81,10 +82,5 @@ const PollDetailScreen: React.FC = () => {
         </View>
     );
 };
-
-const styles = StyleSheet.create({
-    container: { flex: 1, padding: 15, backgroundColor: 'white' },
-    title: { fontSize: 24, fontWeight: 'bold', marginBottom: 15 },
-});
 
 export default PollDetailScreen;

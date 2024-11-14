@@ -1,10 +1,10 @@
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import { useDispatch } from 'react-redux';
-import DynamicForm from '../components/DynamicForm';
-import { formConfig } from '../config/formConfig'; // Your form configuration
-
+import DynamicForm from '../../components/DynamicForm';
+import { formConfig } from '../../config/formConfig'; // Your form configuration
+import styles from './FormScreenStyle';
 const FormScreen = () => {
     const navigation = useNavigation();
     const dispatch = useDispatch();
@@ -24,15 +24,5 @@ const FormScreen = () => {
     );
 };
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-    },
-    viewButton: {
-        margin: 16,
-        marginVertical: 20
-    },
-});
 
 export default FormScreen; 

@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         marginVertical: 8,
     },
     primaryButton: {
-        backgroundColor: '#1e847f',
+        backgroundColor: '#4682B4',
         elevation: 2,
         shadowColor: '#000',
         shadowOffset: {
@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
     outlineButton: {
         backgroundColor: 'transparent',
         borderWidth: 2,
-        borderColor: '#1e847f',
+        borderColor: '#4682B4',
     },
     buttonText: {
         color: 'white',
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
         fontWeight: '600',
     },
     outlineButtonText: {
-        color: '#1e847f',
+        color: '#4682B4',
         fontSize: 16,
         fontWeight: '600',
     },

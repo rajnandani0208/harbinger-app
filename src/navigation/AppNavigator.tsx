@@ -1,13 +1,13 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import FormScreen from '../screens/FormScreen';
-import FormListScreen from '../screens/FormListScreen';
-import FormDetailScreen from '../screens/FormDetailScreen';
+import FormScreen from '../screens/Form/FormScreen';
+import FormListScreen from '../screens/Form/FormListScreen';
+import FormDetailScreen from '../screens/Form/FormDetailScreen';
 import { RootStackParamList } from './types';
-import PollListScreen from '../screens/PollListScreen';
-import PollDetailScreen from '../screens/PollDetailScreen';
-import PollSummaryScreen from '../screens/PollSummaryScreen';
+import PollListScreen from '../screens/Poll/PollListScreen';
+import PollDetailScreen from '../screens/Poll/PollDetailScreen';
+import PollSummaryScreen from '../screens/Poll/PollSummaryScreen';
 import HomeScreen from '../screens/HomeScreen';
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -18,14 +18,14 @@ const AppNavigator = () => {
             <Stack.Navigator initialRouteName="Home"
 
                 screenOptions={{
-                    // headerStyle: {
-                    //     backgroundColor: '#2a9d8f', // Background color of the header
+                    headerStyle: {
+                        backgroundColor: '#fff', // Background color of the header
 
-                    // },
-                    headerTintColor: '#2a9d8f', // Color of the back button and title text
-                    // headerTitleStyle: {
-                    //     fontWeight: 'bold', // Title text style
-                    // },
+                    },
+                    headerTintColor: '#4682B4', // Color of the back button and title text
+                    headerTitleStyle: {
+                        fontWeight: 'bold', // Title text style
+                    },
 
                 }
                 }

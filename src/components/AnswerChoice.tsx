@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
     selectedChoice: {
-        backgroundColor: '#2a9d8f', // Change to your desired selected color
+        backgroundColor: '#4682B4', // Change to your desired selected color
     },
     selectedText: {
         color: '#ffffff',
