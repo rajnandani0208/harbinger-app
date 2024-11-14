@@ -1,50 +1,37 @@
-# Welcome to your Expo app 👋
+# React Native Polling App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and user-friendly React Native application that allows users to participate in polls and fill out forms. The app features a clean UI with tab navigation for easy access to different sections.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Participate in polls and view results.
+- Fill out dynamic forms.
+- Cross-platform support for both iOS and Android.
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+- React Native
+- React Navigation
+- Redux (for state management)
+- TypeScript
 
-   ```bash
-    npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Make sure you have the following installed:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Node.js
+- npm or Yarn
+- React Native CLI (if using the CLI)
+- Android Studio or Xcode (for Android/iOS development)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+### Clone the Repository
+* cd harbinger-app
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+```
+* run the app
+```
+npx expo start
+```

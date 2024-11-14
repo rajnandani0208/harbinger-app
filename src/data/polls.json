@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "title": "Survey on Environmental Policies",
+        "questions": [
+            {
+                "id": 1,
+                "type": "yes-no",
+                "text": "Do you support the current environmental policies?",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "text": "No"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "type": "single-choice",
+                "text": "Which policy do you think needs the most improvement?",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "Air Quality"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Water Conservation"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Waste Management"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "type": "rating",
+                "text": "Rate your satisfaction with the government's environmental efforts.",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "1 - Very Dissatisfied"
+                    },
+                    {
+                        "id": 2,
+                        "text": "2 - Dissatisfied"
+                    },
+                    {
+                        "id": 3,
+                        "text": "3 - Neutral"
+                    },
+                    {
+                        "id": 4,
+                        "text": "4 - Satisfied"
+                    },
+                    {
+                        "id": 5,
+                        "text": "5 - Very Satisfied"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Survey on Public Transportation",
+        "questions": [
+            {
+                "id": 1,
+                "type": "yes-no",
+                "text": "Do you use public transportation regularly?",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "text": "No"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "type": "single-choice",
+                "text": "Which mode of public transportation do you use the most?",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "Bus"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Train"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Metro"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "type": "rating",
+                "text": "Rate your satisfaction with the public transportation system.",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "1 - Dissatisfied"
+                    },
+                    {
+                        "id": 2,
+                        "text": "2 - Neutral"
+                    },
+                    {
+                        "id": 3,
+                        "text": "3 - Satisfied"
+                    }
+                ]
+            }
+        ]
+    }
+]
