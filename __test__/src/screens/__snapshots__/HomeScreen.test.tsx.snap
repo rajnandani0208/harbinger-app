@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> rendering Home screen renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#f9f9f9",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "alignItems": "center",
+        "flexGrow": 1,
+        "justifyContent": "center",
+      }
+    }
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <Text
+        style={
+          {
+            "fontSize": 28,
+            "fontWeight": "bold",
+            "marginBottom": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Welcome to the App
+      </Text>
+      <Text
+        style={
+          {
+            "fontSize": 18,
+            "marginBottom": 30,
+            "textAlign": "center",
+          }
+        }
+      >
+        Choose an option to get started:
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#4682B4",
+            "borderRadius": 10,
+            "elevation": 3,
+            "marginVertical": 10,
+            "opacity": 1,
+            "padding": 20,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 4,
+            "width": "90%",
+          }
+        }
+        testID="gotoFormBtn"
+      >
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Form
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+            }
+          }
+        >
+          Fill out forms and provide your feedback.
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "backgroundColor": "#4682B4",
+            "borderRadius": 10,
+            "elevation": 3,
+            "marginVertical": 10,
+            "opacity": 1,
+            "padding": 20,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 4,
+            "width": "90%",
+          }
+        }
+        testID="gotoFormListBtn"
+      >
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 24,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Form List
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 16,
+            }
+          }
+        >
+          View Submitted Forms
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "backgroundColor": "#4682B4",
+              "borderRadius": 10,
+              "elevation": 3,
+              "marginVertical": 10,
+              "opacity": 1,
+              "padding": 20,
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 4,
+              "width": "90%",
+            }
+          }
+          testID="gotoPollBtn"
+        >
+          <Text
+            style={
+              {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Poll
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#ffffff",
+                "fontSize": 16,
+              }
+            }
+          >
+            Participate in polls and share your opinion.
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "backgroundColor": "#4682B4",
+              "borderRadius": 10,
+              "elevation": 3,
+              "marginVertical": 10,
+              "opacity": 1,
+              "padding": 20,
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.2,
+              "shadowRadius": 4,
+              "width": "90%",
+            }
+          }
+          testID="gotoPollSummary"
+        >
+          <Text
+            style={
+              {
+                "color": "#ffffff",
+                "fontSize": 24,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Poll summary
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#ffffff",
+                "fontSize": 16,
+              }
+            }
+          >
+            View Poll Summary
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

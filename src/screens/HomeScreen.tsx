@@ -23,25 +23,25 @@ const HomeScreen: React.FC = () => {
             <ScrollView contentContainerStyle={styles.scrollStyle} showsVerticalScrollIndicator={false} >
                 <Text style={styles.title}>Welcome to the App</Text>
                 <Text style={styles.subtitle}>Choose an option to get started:</Text>
-                <TouchableOpacity style={styles.card} onPress={navigateToForm}>
+                <TouchableOpacity testID='gotoFormBtn' style={styles.card} onPress={navigateToForm}>
                     <Text style={styles.cardTitle}>Form</Text>
                     <Text style={styles.cardDescription}>Fill out forms and provide your feedback.</Text>
                 </TouchableOpacity>
 
 
-                <TouchableOpacity style={styles.card} onPress={navigateToFormList}>
+                <TouchableOpacity testID='gotoFormListBtn' style={styles.card} onPress={navigateToFormList}>
                     <Text style={styles.cardTitle}>Form List</Text>
                     <Text style={styles.cardDescription}>View Submitted Forms</Text>
                 </TouchableOpacity>
 
 
                 <View style={styles.cardContainer}>
-                    <TouchableOpacity style={styles.card} onPress={navigateToPoll}>
+                    <TouchableOpacity testID='gotoPollBtn' style={styles.card} onPress={navigateToPoll}>
                         <Text style={styles.cardTitle}>Poll</Text>
                         <Text style={styles.cardDescription}>Participate in polls and share your opinion.</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={styles.card} onPress={navigateToPollList}>
+                    <TouchableOpacity testID='gotoPollSummary' style={styles.card} onPress={navigateToPollList}>
                         <Text style={styles.cardTitle}>Poll summary</Text>
                         <Text style={styles.cardDescription}>View Poll Summary</Text>
                     </TouchableOpacity>
